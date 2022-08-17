@@ -56,7 +56,7 @@ class RegisterFragment(val contextParam: Context) : Fragment() {
         toolBar = view.findViewById(R.id.toolBar)
         registerProgressLayout = view.findViewById(R.id.registerProgressLayout)
 
-        setToolBar()
+        //setToolBar()
 
         btnRegister.setOnClickListener{
             val sharedPreferences = contextParam.getSharedPreferences(

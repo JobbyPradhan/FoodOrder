@@ -86,13 +86,13 @@ class LoginFragment(val contextParam: Context) : Fragment() {
 
     fun openRegisterFragment() {
 
-        val transaction = fragmentManager?.beginTransaction()
+        val transaction = requireActivity().supportFragmentManager.beginTransaction()
 
-        transaction?.replace(
+        transaction.replace(
             R.id.frameLayout,
             RegisterFragment(contextParam)
         )
-        transaction?.commit()
+        transaction.commit()
     }
 
 
