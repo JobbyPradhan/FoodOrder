@@ -21,6 +21,7 @@
     <string name="can_t_find_any_restaurant_with_that_name">Can\'t find any Restaurant with that name!</string>
     <string name="no_orders_placed">No Orders Placed Yet</string>
     <string name="foodorder">FoodOrder</string>
+    <string name="welcome">Welcome From FoodOrder!</string>
 
 
 </resources>

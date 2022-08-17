@@ -28,7 +28,6 @@ class OrderPlacedActivity : AppCompatActivity() {
         }
     }
 
-    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         //user can't go back
     }

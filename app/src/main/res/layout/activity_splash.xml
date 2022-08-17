@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="30sp"
         android:textColor="#111212"
-        android:text="Welcome from FoodOrderingSystem"
+        android:text="@string/welcome"
         android:fontFamily="@font/cooljazz"/>
 
 </RelativeLayout>

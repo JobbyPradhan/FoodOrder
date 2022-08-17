@@ -155,7 +155,6 @@ class RestaurantMenuActivity : AppCompatActivity() {
 
 
     //Once items added to cart, If user press back , items will be cleared
-    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (menuAdapter.getSelectedItemCount() > 0) {
 

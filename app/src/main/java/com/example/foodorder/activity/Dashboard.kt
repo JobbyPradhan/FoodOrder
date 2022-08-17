@@ -149,7 +149,6 @@ class Dashboard : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    @Deprecated("Deprecated in Java")
     override fun onBackPressed(){
         when (supportFragmentManager.findFragmentById(R.id.frameLayout)) {
             !is DashboardFragment -> {
